@@ -1,0 +1,25 @@
+@import 'styles/variaveis';
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+  .voltar {
+    align-self: flex-start;
+    padding: 1em;
+    background-color: rgb(255, 89, 89);
+    border-radius: 15px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    button {
+      background-color: transparent;
+      border: none;
+      color: $red;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  }
+}
+
